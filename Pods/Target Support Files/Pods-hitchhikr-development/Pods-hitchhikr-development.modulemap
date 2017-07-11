@@ -1,0 +1,6 @@
+framework module Pods_hitchhikr_development {
+  umbrella header "Pods-hitchhikr-development-umbrella.h"
+
+  export *
+  module * { export * }
+}
