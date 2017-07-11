@@ -16,6 +16,7 @@
 		A97295521F153CDF0002932C /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97295511F153CDF0002932C /* LeftSidePanelVC.swift */; };
 		A97295541F153D690002932C /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97295531F153D690002932C /* ContainerVC.swift */; };
 		A97295571F153FF60002932C /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97295561F153FF60002932C /* CenterVCDelegate.swift */; };
+		A972955A1F157AE80002932C /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97295591F157AE80002932C /* UIViewExt.swift */; };
 		A98EA2E51F14455300A96F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EA2E41F14455300A96F11 /* AppDelegate.swift */; };
 		A98EA2E71F14455300A96F11 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EA2E61F14455300A96F11 /* HomeVC.swift */; };
 		A98EA2EA1F14455300A96F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98EA2E81F14455300A96F11 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		A97295511F153CDF0002932C /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
 		A97295531F153D690002932C /* ContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		A97295561F153FF60002932C /* CenterVCDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		A97295591F157AE80002932C /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		A98EA2E11F14455300A96F11 /* hitchhikr-development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hitchhikr-development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98EA2E41F14455300A96F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A98EA2E61F14455300A96F11 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -110,6 +112,14 @@
 			name = Protocols;
 			sourceTree = "<group>";
 		};
+		A97295581F157AD30002932C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A97295591F157AE80002932C /* UIViewExt.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		A98EA2D81F14455300A96F11 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +141,7 @@
 		A98EA2E31F14455300A96F11 /* hitchhikr-development */ = {
 			isa = PBXGroup;
 			children = (
+				A97295581F157AD30002932C /* Extensions */,
 				A97295551F153FE70002932C /* Protocols */,
 				A97295461F1512C70002932C /* Model */,
 				A97295451F1512C30002932C /* View */,
@@ -273,6 +284,7 @@
 				A97295521F153CDF0002932C /* LeftSidePanelVC.swift in Sources */,
 				A972954E1F15186C0002932C /* CircleView.swift in Sources */,
 				A97295541F153D690002932C /* ContainerVC.swift in Sources */,
+				A972955A1F157AE80002932C /* UIViewExt.swift in Sources */,
 				A98EA2E71F14455300A96F11 /* HomeVC.swift in Sources */,
 				A972954A1F15170D0002932C /* RoundImageView.swift in Sources */,
 				A972954C1F15179F0002932C /* RoundedShadowView.swift in Sources */,
