@@ -17,6 +17,10 @@
 		A97295541F153D690002932C /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97295531F153D690002932C /* ContainerVC.swift */; };
 		A97295571F153FF60002932C /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97295561F153FF60002932C /* CenterVCDelegate.swift */; };
 		A972955A1F157AE80002932C /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97295591F157AE80002932C /* UIViewExt.swift */; };
+		A972955C1F164E250002932C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972955B1F164E250002932C /* LoginVC.swift */; };
+		A972955E1F1651E30002932C /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972955D1F1651E30002932C /* RoundedCornerTextField.swift */; };
+		A97295601F16608C0002932C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A972955F1F16608C0002932C /* GoogleService-Info.plist */; };
+		A97295631F16619E0002932C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97295621F16619E0002932C /* DataService.swift */; };
 		A98EA2E51F14455300A96F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EA2E41F14455300A96F11 /* AppDelegate.swift */; };
 		A98EA2E71F14455300A96F11 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EA2E61F14455300A96F11 /* HomeVC.swift */; };
 		A98EA2EA1F14455300A96F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98EA2E81F14455300A96F11 /* Main.storyboard */; };
@@ -35,6 +39,10 @@
 		A97295531F153D690002932C /* ContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		A97295561F153FF60002932C /* CenterVCDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
 		A97295591F157AE80002932C /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		A972955B1F164E250002932C /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A972955D1F1651E30002932C /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
+		A972955F1F16608C0002932C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A97295621F16619E0002932C /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A98EA2E11F14455300A96F11 /* hitchhikr-development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hitchhikr-development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98EA2E41F14455300A96F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A98EA2E61F14455300A96F11 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -81,6 +89,7 @@
 				A98EA2E61F14455300A96F11 /* HomeVC.swift */,
 				A97295511F153CDF0002932C /* LeftSidePanelVC.swift */,
 				A97295531F153D690002932C /* ContainerVC.swift */,
+				A972955B1F164E250002932C /* LoginVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -93,6 +102,7 @@
 				A972954B1F15179F0002932C /* RoundedShadowView.swift */,
 				A972954D1F15186C0002932C /* CircleView.swift */,
 				A972954F1F151A0B0002932C /* RoundedShadowButton.swift */,
+				A972955D1F1651E30002932C /* RoundedCornerTextField.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -120,6 +130,14 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
+		A97295611F1661920002932C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A97295621F16619E0002932C /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		A98EA2D81F14455300A96F11 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +159,7 @@
 		A98EA2E31F14455300A96F11 /* hitchhikr-development */ = {
 			isa = PBXGroup;
 			children = (
+				A97295611F1661920002932C /* Services */,
 				A97295581F157AD30002932C /* Extensions */,
 				A97295551F153FE70002932C /* Protocols */,
 				A97295461F1512C70002932C /* Model */,
@@ -151,6 +170,7 @@
 				A98EA2EB1F14455300A96F11 /* Assets.xcassets */,
 				A98EA2ED1F14455300A96F11 /* LaunchScreen.storyboard */,
 				A98EA2F01F14455300A96F11 /* Info.plist */,
+				A972955F1F16608C0002932C /* GoogleService-Info.plist */,
 			);
 			path = "hitchhikr-development";
 			sourceTree = "<group>";
@@ -219,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A98EA2EF1F14455300A96F11 /* LaunchScreen.storyboard in Resources */,
+				A97295601F16608C0002932C /* GoogleService-Info.plist in Resources */,
 				A98EA2EC1F14455300A96F11 /* Assets.xcassets in Resources */,
 				A98EA2EA1F14455300A96F11 /* Main.storyboard in Resources */,
 			);
@@ -280,7 +301,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A97295571F153FF60002932C /* CenterVCDelegate.swift in Sources */,
+				A97295631F16619E0002932C /* DataService.swift in Sources */,
 				A97295501F151A0B0002932C /* RoundedShadowButton.swift in Sources */,
+				A972955C1F164E250002932C /* LoginVC.swift in Sources */,
 				A97295521F153CDF0002932C /* LeftSidePanelVC.swift in Sources */,
 				A972954E1F15186C0002932C /* CircleView.swift in Sources */,
 				A97295541F153D690002932C /* ContainerVC.swift in Sources */,
@@ -288,6 +311,7 @@
 				A98EA2E71F14455300A96F11 /* HomeVC.swift in Sources */,
 				A972954A1F15170D0002932C /* RoundImageView.swift in Sources */,
 				A972954C1F15179F0002932C /* RoundedShadowView.swift in Sources */,
+				A972955E1F1651E30002932C /* RoundedCornerTextField.swift in Sources */,
 				A98EA2E51F14455300A96F11 /* AppDelegate.swift in Sources */,
 				A97295481F1512DF0002932C /* GradientView.swift in Sources */,
 			);
