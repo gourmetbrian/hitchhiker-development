@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4B66149CC3E8DB35D5B14169 /* Pods_hitchhikr_development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E5261B3995A9E51CE6254C /* Pods_hitchhikr_development.framework */; };
+		A90DEF861F17C4B1007C1947 /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DEF851F17C4B1007C1947 /* UpdateService.swift */; };
+		A90DEF881F17CAAF007C1947 /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DEF871F17CAAF007C1947 /* DriverAnnotation.swift */; };
+		A90DEF8A1F190D42007C1947 /* PassengerAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DEF891F190D42007C1947 /* PassengerAnnotation.swift */; };
+		A90DEF8C1F196747007C1947 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DEF8B1F196747007C1947 /* UIViewControllerExt.swift */; };
 		A97295481F1512DF0002932C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97295471F1512DF0002932C /* GradientView.swift */; };
 		A972954A1F15170D0002932C /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97295491F15170D0002932C /* RoundImageView.swift */; };
 		A972954C1F15179F0002932C /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A972954B1F15179F0002932C /* RoundedShadowView.swift */; };
@@ -30,6 +34,10 @@
 
 /* Begin PBXFileReference section */
 		84E5261B3995A9E51CE6254C /* Pods_hitchhikr_development.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hitchhikr_development.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90DEF851F17C4B1007C1947 /* UpdateService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
+		A90DEF871F17CAAF007C1947 /* DriverAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
+		A90DEF891F190D42007C1947 /* PassengerAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerAnnotation.swift; sourceTree = "<group>"; };
+		A90DEF8B1F196747007C1947 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		A97295471F1512DF0002932C /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		A97295491F15170D0002932C /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
 		A972954B1F15179F0002932C /* RoundedShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
@@ -103,6 +111,8 @@
 				A972954D1F15186C0002932C /* CircleView.swift */,
 				A972954F1F151A0B0002932C /* RoundedShadowButton.swift */,
 				A972955D1F1651E30002932C /* RoundedCornerTextField.swift */,
+				A90DEF871F17CAAF007C1947 /* DriverAnnotation.swift */,
+				A90DEF891F190D42007C1947 /* PassengerAnnotation.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -126,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				A97295591F157AE80002932C /* UIViewExt.swift */,
+				A90DEF8B1F196747007C1947 /* UIViewControllerExt.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -134,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				A97295621F16619E0002932C /* DataService.swift */,
+				A90DEF851F17C4B1007C1947 /* UpdateService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -302,13 +314,17 @@
 			files = (
 				A97295571F153FF60002932C /* CenterVCDelegate.swift in Sources */,
 				A97295631F16619E0002932C /* DataService.swift in Sources */,
+				A90DEF8C1F196747007C1947 /* UIViewControllerExt.swift in Sources */,
 				A97295501F151A0B0002932C /* RoundedShadowButton.swift in Sources */,
 				A972955C1F164E250002932C /* LoginVC.swift in Sources */,
 				A97295521F153CDF0002932C /* LeftSidePanelVC.swift in Sources */,
 				A972954E1F15186C0002932C /* CircleView.swift in Sources */,
 				A97295541F153D690002932C /* ContainerVC.swift in Sources */,
+				A90DEF8A1F190D42007C1947 /* PassengerAnnotation.swift in Sources */,
 				A972955A1F157AE80002932C /* UIViewExt.swift in Sources */,
+				A90DEF881F17CAAF007C1947 /* DriverAnnotation.swift in Sources */,
 				A98EA2E71F14455300A96F11 /* HomeVC.swift in Sources */,
+				A90DEF861F17C4B1007C1947 /* UpdateService.swift in Sources */,
 				A972954A1F15170D0002932C /* RoundImageView.swift in Sources */,
 				A972954C1F15179F0002932C /* RoundedShadowView.swift in Sources */,
 				A972955E1F1651E30002932C /* RoundedCornerTextField.swift in Sources */,
